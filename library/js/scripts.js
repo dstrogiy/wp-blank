@@ -1,5 +1,5 @@
 /*
- * Author: VCUarts
+ * Author: DS
  *
  * javascripting all the things
 */

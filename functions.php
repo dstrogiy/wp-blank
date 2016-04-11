@@ -1,16 +1,10 @@
 <?php
 /**
- * Author: VCUarts
- * URL: http://arts.vcu.edu
- *
- * @package VCUarts_Bones_WP
+ * @package VEL
  */
 
 // LOAD BONES CORE (if you remove this, the theme will break)
 require_once( 'library/bones.php' );
-
-// Google Analytics
-require_once( 'library/inc/google-analytics.php' );
 
 // Disables trackbacks/pingbacks
 require_once( 'library/inc/disable-trackbacks.php' );
@@ -80,16 +74,6 @@ function bones_theme_customizer( $wp_customize ) {
 }
 
 add_action( 'customize_register', 'bones_theme_customizer' );
-
-
-/**
- * EXTERNAL FONTS
- */
-function bones_fonts() {
-  wp_enqueue_style( 'googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' );
-}
-
-add_action( 'wp_enqueue_scripts', 'bones_fonts' );
 
 
 /**

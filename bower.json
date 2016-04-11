@@ -1,11 +1,9 @@
 {
-  "name": "vcuarts",
+  "name": "vel",
   "version": "0.1.0",
-  "homepage": "https://github.com/VCUarts/VCUarts-bones",
-  "authors": [
-    "VCUarts <whitbycw@vcu.edu>"
-  ],
-  "description": "VCUarts bower",
+  "homepage": "",
+  "authors": "",
+  "description": "Bower",
   "license": "MIT",
   "ignore": [
     "**/.*",
